@@ -1,31 +1,33 @@
-#  📚 Enseñarte: Prototipo Funcional para la Enseñanza, Aprendizaje y Evaluación de la Lengua de Señas Colombiana (LSC) 📚
+# 📚 Enseñarte: Functional Prototype for Teaching, Learning, and Assessing Colombian Sign Language (LSC) 📚
 
-## Descripción
+## Description
 
-Enseñarte es una aplicación móvil desarrollada para facilitar la enseñanza, el aprendizaje y la evaluación de la Lengua de Señas Colombiana (LSC). La aplicación está dirigida principalmente a personas oyentes interesadas en aprender esta lengua, y utiliza tecnologías emergentes como Firebase para autenticación, almacenamiento de datos y reconocimiento de gestos.
+**Enseñarte** is a mobile application developed to support the teaching, learning, and assessment of **Colombian Sign Language (LSC)**. The app is mainly aimed at hearing people interested in learning LSC, and it leverages emerging technologies such as **Firebase** for authentication, data storage, and gesture recognition.
 
-La aplicación integra elementos de **gamificación** y **reconocimiento de video** para proporcionar una experiencia interactiva, motivadora y accesible para sus usuarios. Los principales módulos de la aplicación son: un **diccionario de señas**, un **sistema de aprendizaje basado en niveles** y un **módulo de evaluación de competencias**.
+The application integrates **gamification** and **video recognition** to deliver an interactive, motivating, and accessible experience. Its main modules include a **sign dictionary**, a **level-based learning system**, and a **competency assessment module**.
 
-## Características Principales
+## Key Features
 
-- **Diccionario de Señas**: Acceso a un conjunto de señas seleccionadas del diccionario básico de la LSC, con videos demostrativos.
-- **Lecciones Gamificadas**: Aprendizaje guiado con desafíos y ejercicios interactivos que permiten avanzar por niveles.
-- **Evaluación de Aprendizaje**: Evaluación automática de los gestos a través del reconocimiento de video utilizando **TensorFlow Lite**.
-- **Autenticación**: Integración con **Firebase Auth** para la gestión de usuarios.
-- **Almacenamiento de Datos**: **Firestore** es utilizado para gestionar el almacenamiento y recuperación de datos.
-- **Subida de Videos**: Los videos se almacenan en **Firebase Storage** para su análisis posterior.
+- **Sign Dictionary**: Access to a curated set of signs from the basic LSC dictionary, with demonstration videos.
+- **Gamified Lessons**: Guided learning with challenges and interactive exercises that allow users to progress through levels.
+- **Learning Assessment**: Automatic gesture evaluation through video recognition using **TensorFlow Lite**.
+- **Authentication**: Integration with **Firebase Auth** for user management.
+- **Data Storage**: **Firestore** is used to manage data storage and retrieval.
+- **Video Uploads**: Videos are stored in **Firebase Storage** for later analysis.
 
-## Requisitos del Sistema
+## System Requirements
 
-- **Plataforma**: Android 7.0 (Nougat) o superior
-- **Cámara**: Cámara frontal con resolución mínima de 1280x720 para la correcta captura de gestos.
-- **Conexión a Internet**: Requerida para la autenticación de usuarios y la sincronización de datos con Firebase.
+- **Platform**: Android 7.0 (Nougat) or higher
+- **Camera**: Front-facing camera with a minimum resolution of 1280x720 for accurate gesture capture
+- **Internet Connection**: Required for user authentication and Firebase data synchronization
 
-## Instalación
 
-1. Clonar el repositorio del proyecto:
+## Installation
+
+1. Clone the project repository:
    ```bash
    git clone https://github.com/tuusuario/enseñarte-lsc.git
+   
 2. Abrir el proyecto en Android Studio.
 3. Configurar el proyecto con las credenciales de Firebase:
    - Crear un proyecto en Firebase.
